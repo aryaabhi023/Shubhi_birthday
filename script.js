@@ -83,7 +83,7 @@ const id6 = document.getElementById("6");
 
 id1.addEventListener("dblclick", () =>
   alert(
-    "You know shubhagi my heart always beat faster when i am thinKing about u"
+    "You know shubhangi my heart always beat faster when i am thinKing about u"
   )
 );
 id2.addEventListener("dblclick", () =>
