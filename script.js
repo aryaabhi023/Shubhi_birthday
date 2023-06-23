@@ -71,3 +71,43 @@ nextbtn.addEventListener("click", nextSong);
 prevbtn.addEventListener("click", prevSong);
 
 audio.addEventListener("timeupdate", updateTime);
+
+//alert section
+
+const id1 = document.getElementById("1");
+const id2 = document.getElementById("2");
+const id3 = document.getElementById("3");
+const id4 = document.getElementById("4");
+const id5 = document.getElementById("5");
+const id6 = document.getElementById("6");
+
+id1.addEventListener("dblclick", () =>
+  alert(
+    "You know shubhagi my heart always beat faster when i am thinKing about u"
+  )
+);
+id2.addEventListener("dblclick", () =>
+  alert("Acha tell me what should i can gift u? Ek acha boyfriend chalega...?")
+);
+id3.addEventListener("dblclick", () =>
+  alert(
+    "Ek baat puchu agar permission ho toh? 22-06-2024 ko free ho toh mujhe aapke 10min. mil sakte hain kya??"
+  )
+);
+id4.addEventListener("dblclick", () =>
+  alert(
+    "Stay with me please, itna acha insan ko main khona afford ni kar sakta..."
+  )
+);
+id5.addEventListener("dblclick", () => {
+  alert("Shubhi 😳😳");
+  alert("i na 😌😌");
+  alert("kind of 😳😳");
+  alert("Love ❤️");
+  alert("tokyo reveger😅😅");
+});
+id6.addEventListener("dblclick", () =>
+  alert(
+    "But to be honest I am thankful to u in many or love ka kiya hain i will always love u, then, now and forever>>>>"
+  )
+);
